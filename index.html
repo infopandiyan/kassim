@@ -241,11 +241,14 @@
         month: '06',
         day: '30'
     });
-    $(document).ready(function(){
-    	$("#playmusic").click();
-    });
-    var myAudio = document.getElementById("myAudio");
+      var myAudio = document.getElementById("myAudio");
 var isPlaying = false;
+    $(document).ready(function(){
+    	setTimeout(function() {
+    	 myAudio.play();
+    	}, 0);
+    });
+  
 
 function togglePlay() {
   if (isPlaying) {
