@@ -1041,7 +1041,7 @@ form label {
 }
 .heart i {
   font-size: 20px;
-  background: #fff;
+  background: #d2cccc;
   padding: 20px;
   color: #F14E95;
   -webkit-border-radius: 50%;
@@ -1107,11 +1107,11 @@ form label {
   margin-left: 5px;
 }
 .couple-half .desc-groom {
-  padding-right: 180px;
+  padding-right: 28px;
   text-align: right;
 }
 .couple-half .desc-bride {
-  padding-left: 180px;
+  padding-left: 28px;
   text-align: left;
 }
 @media screen and (max-width: 480px) {
